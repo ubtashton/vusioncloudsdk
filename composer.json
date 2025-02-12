@@ -2,6 +2,7 @@
     "name": "ubtashton/vusioncloudsdk",
     "description": "A php sdk for vusion.io vusion cloud api",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ubtashton\\Vusioncloudsdk\\": "src/"
