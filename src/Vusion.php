@@ -37,7 +37,7 @@ class Vusion
         $send->search=($search!=null?$search:'');
         $send->page=1;
         $send->pageSize=500;
-        return $this->sendPost('stores/search', $send);
+        return $this->sendPost('stores/search', $send)->values;
     }
 
 
